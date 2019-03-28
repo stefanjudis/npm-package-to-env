@@ -3,7 +3,7 @@
 
 # npm-package-to-env
 
-Load package.json data and make them accessible via process.env (similar to npm/yarn scripts)
+Load package.json data and make it accessible via process.env (similar to [npm](https://docs.npmjs.com/misc/scripts#packagejson-vars)/yarn scripts)
 
 ## Install
 
