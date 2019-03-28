@@ -43,6 +43,10 @@ console.log(process.env.npm_package_name); // 'my-package'
 console.log(process.env.npm_package_config_foo); // 'bar'
 ```
 
+## Thanks
+
+Thanks to [Jess Telford](https://twitter.com/JessTelford/) who initially [shared the script behavior](https://twitter.com/JessTelford/status/1108531278846918657) and the folks who maintain [dotenv](https://github.com/motdotla/dotenv) which I had a look at how they do things. :)
+
 ## License
 
 See [LICENSE](LICENSE)
