@@ -1,6 +1,6 @@
 {
   "name": "npm-package-to-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load package.json data and make them accessible via process.env (similar to npm/yarn scripts)",
   "main": "index.js",
   "scripts": {
