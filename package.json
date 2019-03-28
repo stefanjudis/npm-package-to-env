@@ -1,25 +1,30 @@
 {
   "name": "npm-package-to-env",
   "version": "1.0.0",
-  "description": "Load package.json data and make them accessible via process.env",
+  "description": "Load package.json data and make them accessible via process.env (similar to npm/yarn scripts)",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:ci": "npm run test && codecov"
+    "test:ci": "npm run test && codecov",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefanjudis/package-json-to-env.git"
+    "url": "git+https://github.com/stefanjudis/npm-package-to-env.git"
   },
   "keywords": [],
   "author": "stefan judis <stefanjudis@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefanjudis/package-json-to-env/issues"
+    "url": "https://github.com/stefanjudis/npm-package-to-env/issues"
   },
-  "homepage": "https://github.com/stefanjudis/package-json-to-env#readme",
+  "homepage": "https://github.com/stefanjudis/npm-package-to-env#readme",
   "devDependencies": {
     "codecov": "^3.2.0",
     "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "all-contributors-cli": "^6.2.0"
   }
 }
